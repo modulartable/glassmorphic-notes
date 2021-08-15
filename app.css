@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  background: #feac5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4bc0c8,
+    #c779d0,
+    #feac5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4bc0c8,
+    #c779d0,
+    #feac5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+#notesBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 3;
+  justify-content: center;
+  align-content: space-around;
+  align-items: baseline;
+  background-color: transparent;
+  background-blend-mode: soft-light;
+  margin-top: 2vh;
+}
+
+#addbox {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-style: hidden;
+  color: white;
+  background-blend-mode: soft-light;
+  margin-top: 2vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.notes {
+  width: auto;
+  max-width: 350px;
+  height: auto;
+  word-wrap: normal;
+  margin: 5px;
+  padding: 1px;
+  border-radius: 6px;
+  border-style: hidden;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: 'Roboto', sans-serif;
+}
+
+.deletebtn {
+  z-index: 1;
+  margin-left: auto;
+  margin-bottom: auto;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+#deleteAll {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  margin-top: 2vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  margin-top: 10vh;
+}
+
+.form-control-append {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-style: hidden;
+  border-radius: 5px;
+ margin: 1vw;
+}
+
+.h2title {
+margin-top: 2vh;
+}
